@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+require_relative "../lib/greeting"
+
+puts "Hi! I'm HAL, what's your name?"
+
+user_name = gets.chomp
+greeting(user_name)
