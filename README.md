@@ -6,16 +6,11 @@
 2. Become familiar with the strcutre of a CLI application. 
 3. Get comfortable reading test output for a CLI application. 
 
-
 ## Overview
 
-<table style="margin-left: 30%"t>
-<caption align="bottom" style="font-size: 12px">Theatrical release poster by Robert McCall</caption>
-<tr><td><img src="http://readme-pics.s3.amazonaws.com/2001_A_Space_Odyssey_Style_B.jpg"/></td></tr>
-</table>
+![2001 Space Odyssey](http://readme-pics.s3.amazonaws.com/2001_A_Space_Odyssey_Style_B.jpg)
 
-
-The year is 2001, humanity has discovered a mysterious object buried beneath the Lunar surface. Before Earth's most capable (and heroic) scientists can board the *Discovery One* and investigate, we must program the super-intelligent computer, HAL 9000. Luckily for us, however, most of HAL's functionality is already up and running. Our job is to program HAL's greeting to the user. 
+The year is 2001, humanity has discovered a mysterious object buried beneath the Lunar surface. Before Earth's most capable (and heroic) scientists can board the *Discovery One* and investigate, we must program the super-intelligent computer, HAL 9000. Luckily for us, however, most of HAL's functionality is already up and running. Our job is to program HAL's greeting for the user. 
 
 Our program will: 
 
@@ -31,8 +26,6 @@ Check out the video below to see the final product in action:
 Notice that the the program is run with `ruby bin/greet`––we are using Ruby to run the code in the executable file that lives in our `bin` directory. Let's take a closer look at our project structure now. 
 
 ## Project Structure
-
-**If you haven't done so already, fork and clone this lab down onto your computer**. 
 
 Check out the file structure below. 
 
@@ -52,7 +45,7 @@ Let's take a moment to review:
 
 ### The `bin` Directory
 
-The `bin` directory holds our **exectuable** file. This file is responsible for running the program. It contains code that actually enacts the command line interaction––i.e. greeting the user, asking the user for input, storing that input and then acting on it. 
+The `bin` directory holds our **exectuable** file. This file is responsible for running the program. It contains code that actually enacts the command line interaction - i.e. greeting the user, asking the user for input, storing that input and then acting on it. 
 
 ### The `lib` Directory
 
@@ -60,7 +53,7 @@ The `lib` directory is where we place the code that our program relies on to run
 
 ### The `spec` Directory
 
-This directory contains the tests for our program. We have tests for the code in the `lib` directory in `spec/01_greeting.rb` and tests for the CLI, i.e. the user interaction portion of our application, in `spec/02_cli_spec.rb`. We'll use the test output from running `learn` along with the guidelines below to get our program working. 
+This directory contains the tests for our program. We have tests for the code in the `lib` directory in `spec/01_greeting_spec.rb` and tests for the CLI, i.e. the user interaction portion of our application, in `spec/02_cli_spec.rb`. We'll use the test output from running `learn` along with the guidelines below to get our program working. 
 
 ## Instructions
 
@@ -153,3 +146,7 @@ local variable `name' not defined in ./bin/greet.
 This is telling us that the `bin/greet` file fails to set a variable called `name` equal to the user's input that is captured via the `#gets.strip` methods. 
 
 Now that you have a basic sense of how to read these error messages, as well as some guidelines for getting those tests passing, go ahead and get HAL working properly!
+=======
+When you're done, run `learn` to confirm all tests are passing.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7R0mD3uWk5c" frameborder="0" allowfullscreen></iframe>
