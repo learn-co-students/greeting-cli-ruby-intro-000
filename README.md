@@ -3,7 +3,7 @@
 ## Objectives
 
 1. Build a CLI (command line interface) application.
-2. Become familiar with the strcutre of a CLI application.
+2. Become familiar with the structure of a CLI application.
 3. Get comfortable reading test output for a CLI application.
 
 ## Overview
