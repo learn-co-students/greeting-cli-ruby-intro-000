@@ -3,7 +3,7 @@
 ## Objectives
 
 1. Build a CLI (command line interface) application.
-2. Become familiar with the strcutre of a CLI application.
+2. Become familiar with the structure of a CLI application.
 3. Get comfortable reading test output for a CLI application.
 
 ## Overview
@@ -45,11 +45,11 @@ Let's take a moment to review:
 
 ### The `bin` Directory
 
-The `bin` directory holds our **exectuable** file. This file is responsible for running the program. It contains code that actually enacts the command line interaction - i.e. greeting the user, asking the user for input, storing that input and then acting on it.
+The `bin` directory holds our **executable** file. This file is responsible for running the program. It contains code that actually enacts the command line interaction - i.e. greeting the user, asking the user for input, storing that input and then acting on it.
 
 ### The `lib` Directory
 
-The `lib` directory is where we place the code that our program relies on to run. It is the meat of our CLI application. Our executable file *requires* the files in the `lib` directory and uses the code (for example, calling on any methods we might define) to to enact the CLI.
+The `lib` directory is where we place the code that our program relies on to run. It is the meat of our CLI application. Our executable file *requires* the files in the `lib` directory and uses the code (for example, calling on any methods we might define) to enact the CLI.
 
 ### The `spec` Directory
 
