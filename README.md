@@ -49,7 +49,7 @@ The `bin` directory holds our **exectuable** file. This file is responsible for 
 
 ### The `lib` Directory
 
-The `lib` directory is where we place the code that our program relies on to run. It is the meat of our CLI application. Our executable file *requires* the files in the `lib` directory and uses the code (for example, calling on any methods we might define) to to enact the CLI.
+The `lib` directory is where we place the code that our program relies on to run. It is the meat of our CLI application. Our executable file *requires* the files in the `lib` directory and uses the code (for example, calling on any methods we might define) to enact the CLI.
 
 ### The `spec` Directory
 
