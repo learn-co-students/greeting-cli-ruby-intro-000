@@ -88,7 +88,7 @@ If we run `learn spec/02_cli_spec.rb` we can see from the test output that the f
 
 Let's walk through some of the error messages from running the CLI spec together.
 
-In your terminal, once you have your `spec/01_greeting.rb` tests passing, run `rspec spec/02_cli_spec.rb`.
+In your terminal, once you have your `spec/01_greeting_spec.rb` tests passing, run `rspec spec/02_cli_spec.rb`.
 
 The first failure and error message should look something like this:
 
