@@ -151,3 +151,5 @@ Now that you have a basic sense of how to read these error messages, as well as 
 When you're done, run `learn` to confirm all tests are passing.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7R0mD3uWk5c" frameborder="0" allowfullscreen></iframe>
+
+<a href='https://learn.co/lessons/greeting-cli' data-visibility='hidden'>View this lesson on Learn.co</a>
