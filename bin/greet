@@ -2,3 +2,7 @@
 require_relative "../lib/greeting.rb"
 
 # code your CLI here!
+
+puts ("Hi, what is your name?")
+name = gets.strip
+greeting(name)
