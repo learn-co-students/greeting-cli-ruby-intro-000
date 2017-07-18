@@ -23,7 +23,7 @@ Check out the video below to see the final product in action:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sBQBP1Aaxzk" frameborder="0" allowfullscreen></iframe>
 
-Notice that the the program is run with `ruby bin/greet`––we are using Ruby to run the code in the executable file that lives in our `bin` directory. Let's take a closer look at our project structure now.
+Notice that the program is run with `ruby bin/greet`––we are using Ruby to run the code in the executable file that lives in our `bin` directory. Let's take a closer look at our project structure now.
 
 ## Project Structure
 
@@ -155,3 +155,5 @@ When you're done, run `learn` to confirm all tests are passing.
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/greeting-cli' title='Greeting Cli'>Greeting Cli</a> on Learn.co and start learning to code for free.</p>
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/greeting-cli'>Greeting CLI Lab</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/greeting-cli'>Greeting CLI Lab</a> on Learn.co and start learning to code for free.</p>
