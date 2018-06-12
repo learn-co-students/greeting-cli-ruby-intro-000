@@ -10,7 +10,13 @@
 
 ![2001 Space Odyssey](http://readme-pics.s3.amazonaws.com/2001_A_Space_Odyssey_Style_B.jpg)
 
-The year is 2001, humanity has discovered a mysterious object buried beneath the Lunar surface. Before Earth's most capable (and heroic) scientists can board the *Discovery One* and investigate, we must program the super-intelligent computer, HAL 9000. Luckily for us, however, most of HAL's functionality is already up and running. Our job is to program HAL's greeting for the user.
+The year is 2001,
+   |–– greeting.rb
+spec
+   |–– 01_greeting_spec.rb
+   |–– 02_cli_spec.rb
+   |–– spec_helper.rb
+... humanity has discovered a mysterious object buried beneath the Lunar surface. Before Earth's most capable (and heroic) scientists can board the *Discovery One* and investigate, we must program the super-intelligent computer, HAL 9000. Luckily for us, however, most of HAL's functionality is already up and running. Our job is to program HAL's greeting for the user.
 
 Our program will:
 
@@ -33,12 +39,6 @@ Check out the file structure below.
 bin
    |–– greet
 lib
-   |–– greeting.rb
-spec
-   |–– 01_greeting_spec.rb
-   |–– 02_cli_spec.rb
-   |–– spec_helper.rb
-...
 ```  
 
 Let's take a moment to review:
