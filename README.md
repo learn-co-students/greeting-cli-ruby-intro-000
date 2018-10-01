@@ -23,7 +23,7 @@ Check out the video below to see the final product in action:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sBQBP1Aaxzk" frameborder="0" allowfullscreen></iframe>
 
-Notice that the the program is run with `ruby bin/greet`––we are using Ruby to run the code in the executable file that lives in our `bin` directory. Let's take a closer look at our project structure now.
+Notice that the program is run with `ruby bin/greet`––we are using Ruby to run the code in the executable file that lives in our `bin` directory. Let's take a closer look at our project structure now.
 
 ## Project Structure
 
@@ -119,7 +119,7 @@ Then, we see the description of our failure:
 Failure/Error: expect($stdout).to receive(:puts).with("Hi! I'm HAL, what's your name?"), "Make sure bin/greet has code that can output 'Hi! I'm HAL, what's your name?' exactly."
 ```
 
-The helpful part of this error message can be found at then end, after the `, `.
+The helpful part of this error message can be found at the end, after the `, `.
 
 ```bash
 "Make sure bin/greet has code that can output 'Hi! I'm HAL, what's your name?' exactly."
@@ -151,3 +151,9 @@ Now that you have a basic sense of how to read these error messages, as well as 
 When you're done, run `learn` to confirm all tests are passing.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7R0mD3uWk5c" frameborder="0" allowfullscreen></iframe>
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/greeting-cli' title='Greeting Cli'>Greeting Cli</a> on Learn.co and start learning to code for free.</p>
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/greeting-cli'>Greeting CLI Lab</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/greeting-cli'>Greeting CLI Lab</a> on Learn.co and start learning to code for free.</p>
