@@ -81,7 +81,7 @@ First, we have our shebang line that tells the terminal which interpreter to use
 If we run `learn spec/02_cli_spec.rb` we can see from the test output that the following is required:
 
 1. Use `#puts` to output the string "Hi! I'm HAL, what's your name?"
-2. Use the `#gets.strip` method to store the user's input and set it equal to a variable called `name`.
+2. Use the `#gets.strip` method to store the user's input, remove the trailing "newline" `"\n"` character with `#chomp`, and set it equal to a variable called `name`.
 3. Call the `#greeting` method with an argument of the user's name (captured using `#gets` in step 2) to output the interpolated welcome string.
 
 ### Reading CLI Error Messages
