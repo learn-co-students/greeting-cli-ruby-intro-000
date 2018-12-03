@@ -152,8 +152,5 @@ When you're done, run `learn` to confirm all tests are passing.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7R0mD3uWk5c" frameborder="0" allowfullscreen></iframe>
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/greeting-cli' title='Greeting Cli'>Greeting Cli</a> on Learn.co and start learning to code for free.</p>
-
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/greeting-cli'>Greeting CLI Lab</a> on Learn.co and start learning to code for free.</p>
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/greeting-cli'>Greeting CLI Lab</a> on Learn.co and start learning to code for free.</p>
