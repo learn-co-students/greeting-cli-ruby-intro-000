@@ -1,4 +1,12 @@
 #!/usr/bin/env ruby
+
+
 require_relative "../lib/greeting.rb"
 
 # code your CLI here!
+
+puts "Hi! I'm HAL, what's your name?"
+#puts "Or.What can I reference you meaties by?"
+name = gets.chomp.strip.chomp
+
+greeting(name)
