@@ -25,7 +25,10 @@ describe './lib/greeting.rb' do
 
       output = capture_puts{ greeting(" Sally\t   ") }
 
-      expect(output).to include("Hello Sally. It's nice to meet you.")
+      # puts adds a newline to the output. Without using print, students
+      # will not be able to remove the \n character at the end of the phrase
+      # Strip is being used on the output for this purpose
+      expect(output.strip).to eq("Hello Sally. It's nice to meet you.")
     end
   end
 end
