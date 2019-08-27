@@ -1,1 +1,3 @@
-# code the #greeting method here!
+def greeting(name)
+  puts "Hello I'm HAL, whats is your name?"
+  name = gets.strip
