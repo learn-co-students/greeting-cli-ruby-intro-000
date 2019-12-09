@@ -23,7 +23,7 @@ describe './lib/greeting.rb' do
     it 'greets the person with additional whitespace removed' do
       allow($stdout).to receive(:puts)
 
-      output = capture_puts{ greeting("Sally") }
+      output = capture_puts{ greeting(" Sally\t  ") }
 
       # puts adds a newline to the output. Without using print, students
       # will not be able to remove the \n character at the end of the phrase
