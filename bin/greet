@@ -2,3 +2,10 @@
 require_relative "../lib/greeting.rb"
 
 # code your CLI here!
+puts "Hi! I'm HAL, what's your name?"
+# the above is what cli is prinring first when called
+name = gets.strip
+# then given an input which the CLI 'strips' and 'gets'
+# in order for the input to be in the function/method of 'greeting'
+ greeting(name)
+# greeting here calls for the method created in the folder lib, which was created to respond with the input
