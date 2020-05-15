@@ -2,3 +2,13 @@
 require_relative "../lib/greeting.rb"
 
 # code your CLI here!
+
+puts "Hi! I'm HAL, what's your name?"
+name = gets.strip
+greeting("Don")
+
+
+# puts "Hello #{name}. It's nice to meet you."
+
+
+# Run file with:        learn spec/02_cli_spec.rb
