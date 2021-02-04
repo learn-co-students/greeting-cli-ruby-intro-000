@@ -1,4 +1,12 @@
 #!/usr/bin/env ruby
 require_relative "../lib/greeting.rb"
 
+expect($stdout).to receive(:puts).with("Hi! I'm HAL, what's your name?")
+  puts "Hi! I'm HAL, what's your name?"
+  puts "Please enter your name so that we can greet you more personally:"
+  name = gets.strip
+  greeting(name)
+
+ end
+end
 # code your CLI here!
